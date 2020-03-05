@@ -1,0 +1,41 @@
+.outerrow {
+ display: flex;
+}
+
+.outer {
+  margin: .5rem;
+  width: 50vh;
+  position: relative;
+}
+
+.outer:after {
+  content:'';
+  display: block;
+  padding-bottom: 100%;
+}
+
+.content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.cube {
+  padding: 1rem;
+}
+
+.row {
+  border-style: none;
+  height: 33.3%;
+  position: relative;
+  display: flex;
+}
+
+.inner {
+  /* border: 1px black solid; */
+  display: inline-block;
+  height: 100%;
+  width: 33.33%;
+  /* background-color: #a40606;
+  background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%); */
+}
